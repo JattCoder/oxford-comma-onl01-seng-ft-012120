@@ -10,5 +10,5 @@ def oxford_comma(array)
       tostring += ", "+string
     end
   end
-  puts tostring
+  return tostring
 end
