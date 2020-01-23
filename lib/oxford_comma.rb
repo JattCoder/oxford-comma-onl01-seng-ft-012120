@@ -5,7 +5,7 @@ def oxford_comma(array)
     tostring = lastelement
   else
     tostring = array.join(", ")
-    tostring += " and "+lastelement
+    tostring += ", and "+lastelement
   end
   return tostring
 end
